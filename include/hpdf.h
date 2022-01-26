@@ -455,8 +455,8 @@ HPDF_UseUTFEncodings   (HPDF_Doc   pdf);
 
 HPDF_EXPORT(HPDF_Annotation)
 HPDF_Page_Create3DAnnot    (HPDF_Page       page,
-							HPDF_Rect       rect,
-							HPDF_U3D        u3d);
+							HPDF_Rect       rect, HPDF_BOOL tb, HPDF_BOOL np,
+							HPDF_U3D        u3d, HPDF_Image ap);
 
 HPDF_EXPORT(HPDF_Annotation)
 HPDF_Page_CreateTextAnnot  (HPDF_Page       page,
